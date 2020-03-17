@@ -33,7 +33,7 @@ function handleGeneralError(error) {
 function createIframe(video) {
     const videoKey = (video && video.key);
     const iframe = document.createElement('iframe');
-    iframe.src = `https://www.youtube.com/embed/${videoKey}`;
+    iframe.src = `http://www.youtube.com/embed/${videoKey}`;
     iframe.width = 600;
     iframe.height = 320;
     iframe.allowFullscreen = true;
